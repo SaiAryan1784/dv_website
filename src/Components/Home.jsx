@@ -10,23 +10,23 @@ const Home = () => {
     return (
         <div className="bg-cover bg-bottom h-screen z-0 opacity-[1]" style={style}>
             {/* <div className="absolute inset-0" style={{ background: 'rgba(0, 0, 0, 0.5)' }}></div> Dark overlay */}
-            <nav className='flex items-center justify-between p-3 z-10'>
+            <nav className='flex items-center justify-between p-3 z-10 backdrop-blur-[0.6px] rounded-xl'>
                 <div>
                     <img src={logo} className='h-[140px] w-[140px]' alt="Logo" />
                 </div>
-                <div className='text-white mr-[50px] text-3xl font-Orbitron'>
-                    <ul className="flex gap-[3rem]">
+                <div className='text-white mr-[50px] text-2xl font-Orbitron'>
+                    <ul className="flex gap-[2.5rem]">
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/" className='hover:text-blue-600'>Home</a>
                         </li>
                         <li>
-                            <a href="/about">About</a>
+                            <a href="/about" className='hover:text-blue-600'>About</a>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <a href="/contact" className='hover:text-blue-600'>Contact</a>
                         </li>
                         <li>
-                            <a href="/team">Team</a>
+                            <a href="/team" className='hover:text-blue-600'>Team</a>
                         </li>
                     </ul>
                 </div>
@@ -38,8 +38,6 @@ const Home = () => {
             <div className='w-screen max-w-screen-lg text-center font-Orbitron text-8xl font-semibold text-white mx-auto mt-[2%] z-10'>
                 <h1>DATAVERSE</h1>
             </div>
-
-            
         </div>
     );
 };
