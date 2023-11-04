@@ -1,5 +1,5 @@
 import React from 'react';
-import bgimg from '../Assets/WholeBG.jpg';
+import bgimg from '../Assets/bgnew.png';
 import logo from '../Assets/DataVerseLogo.png';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     };
 
     return (
-        <div className="bg-cover bg-bottom h-screen z-0 opacity-[1]  bg-fixed bg-no-repeat shadow-lg" style={style}>
+        <div className="bg-cover bg-center h-screen z-0 opacity-[1]  bg-fixed bg-no-repeat shadow-lg" style={style}>
             {/* <div className="absolute inset-0" style={{ background: 'rgba(0, 0, 0, 0.5)' }}></div> Dark overlay */}
             <nav className='flex items-center justify-between p-3 z-10 backdrop-blur-[0.6px]'>
                 <div>
