@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Event from './Components/Event';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Team from './Components/teams';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Event/>
     <About/>
     <Contact/>
+    <Team/>
   </React.StrictMode>
 );
 
