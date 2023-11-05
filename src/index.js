@@ -5,6 +5,7 @@ import App from './App';
 import Home from './Components/Home';
 import Event from './Components/Event';
 import About from './Components/About';
+import Contact from './Components/Contact';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
     {/* <App/> */}
     <Event/>
     <About/>
+    <Contact/>
   </React.StrictMode>
 );
 

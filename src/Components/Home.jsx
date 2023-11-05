@@ -32,10 +32,10 @@ const Home = () => {
                 </div>
             </nav>
 
-            <div className=' w-screen max-w-screen-lg text-center font-Orbitron text-5xl font-semibold text-slate-400 mx-auto mt-[12%] z-10'>
+            <div className=' animate-none w-screen max-w-screen-lg text-center font-Orbitron text-5xl font-semibold text-slate-400 mx-auto mt-[12%] z-10'>
                 <h1>WELCOME TO</h1>
             </div>
-            <div className='w-screen max-w-screen-lg text-center font-Orbitron text-8xl font-semibold backdrop-blur-[0.7px] text-white mx-auto mt-[2%] z-10'>
+            <div className=' animate-pulse w-screen max-w-screen-lg text-center font-Orbitron text-8xl font-semibold backdrop-blur-[0.7px] text-white mx-auto mt-[2%] z-10'>
                 <h1>DATAVERSE</h1>
             </div>
         </div>
