@@ -1,8 +1,11 @@
 import React from 'react'
+import bgimg from './Assets/bgnew.png'
 
 const App = () => {
+
   return (
-    <div>App</div>
+    <div>
+    </div>
   )
 }
 
